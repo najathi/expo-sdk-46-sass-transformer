@@ -1,0 +1,14 @@
+.container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    padding: 1rem;
+    text-align: center;
+}
+
+.text {
+    @include headingText();
+    color: $light0;
+    padding-bottom: 1rem;
+}

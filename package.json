@@ -10,12 +10,19 @@
   },
   "dependencies": {
     "expo": "~46.0.9",
+    "expo-font": "~10.2.0",
+    "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
     "react-native": "0.69.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@expo/metro-config": "^0.3.22",
+    "babel-plugin-react-native-classname-to-style": "^1.2.2",
+    "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
+    "react-native-sass-transformer": "^2.0.0",
+    "sass": "^1.54.9"
   },
   "private": true
 }
